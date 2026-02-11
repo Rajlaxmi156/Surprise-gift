@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>For You ❤️</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Floating hearts background -->
+  <div class="hearts"></div>
+
+  <!-- Step 1 -->
+  <div class="container fade-in" id="step1">
+    <h1>Hey there 💕</h1>
+    <p>Enter Your Beautiful Name</p>
+    <div><input type="text" id="nameInput" placeholder="Your name..." /></div>
+    <button onclick="checkName()">Continue</button>
+  </div>
+
+  <!-- Cheesy message -->
+  <div class="container hidden fade-in" id="cheesy"></div>
+
+  <!-- Step 2 -->
+  <div class="container hidden fade-in" id="step2">
+    <h2>Will you always stay with me? 💖</h2>
+    <button onclick="showLove()">Yes 😍</button>
+    <button onclick="showLove()">Of course 💍</button>
+  </div>
+
+  <!-- Final Card -->
+  <div class="container hidden fade-in final-card" id="final">
+    <div class="final-content">
+      <h2>You are my always 🌸</h2>
+
+      <div class="photo-box">
+        <img src="1.jpg" alt="Our photo" />
+      </div>
+
+      <p class="final-text">
+        Loving you is my favorite habit.<br/>
+        Choosing you is my forever promise.<br/><br/>
+        Love you so much ❤️
+      </p>
+
+      <p class="signature">— Always yours</p>
+    </div>
+
+    <footer class="footer">
+      Made with ❤️ by Sudeep
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
