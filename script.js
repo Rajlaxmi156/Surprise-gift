@@ -6,9 +6,9 @@ function checkName() {
   const cheesy = document.getElementById('cheesy');
   cheesy.classList.remove('hidden');
 
-  if (name.toLowerCase() === 'mamali') {
+  if (name.toLowerCase() === 'somu') {
     cheesy.innerHTML = `
-      <h2>Mamali ❤️</h2>
+      <h2>Somu ❤️</h2>
       <p>
         You don’t just have my heart…<br/>
         you ARE my heart 😘
@@ -16,7 +16,7 @@ function checkName() {
     `;
   } else {
     cheesy.innerHTML = `
-      <h2>MAMALI 💕</h2>
+      <h2>Somu 💕</h2>
       <p>
         You can change the name,<br/>
         but you’ll still be mine forever ❤️<br/>
